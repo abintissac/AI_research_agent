@@ -17,3 +17,8 @@ class AIResearchPaperAgent:
             allow_delegation=False,
             verbose=True
         )
+    def Writer_Agent(self):
+        return Agent(
+            role= "Writer Agent",
+            goal=""
+        )
